@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.h-1_5em {
+  height: 1.5em;
+}
+
+.input-default {
+  @apply border-0 border-b-2 border-b-primary-100 focus:border-b-primary-500 focus:outline-none appearance-none leading-6 text-slate-900 placeholder-slate-400 py-1 px-2 shadow-sm
+}
